@@ -30,12 +30,6 @@ Exploratory Data Analysis was performed to gain insights into the dataset. The c
 ### Model Building and Selection
 Multiple classifier models were tried, including NaiveBayes, random forest, KNN, decision tree, logistic regression, ExtraTreesClassifier, and SVC. The best classifier was chosen based on precision, with a precision of 100% achieved.
 
-### Web Deployment
-The model was deployed on the web using Streamlit. The user interface has a simple input box where the user can input a message, and the model will predict whether it is spam or not spam.
-
-## Demo
-To try out the SMS Spam Detection model, visit [here](https://textsafe.streamlit.app/).
-
 ## Usage
 To use the SMS Spam Detection model on your own machine, follow these steps:
 
@@ -49,8 +43,3 @@ pip install -r requirements.txt.
 streamlit run app.py.
 ```
 + Visit localhost:8501 on your web browser to access the web app.
-
-## Contributions
-Contributions to this project are welcome. If you find any issues or have any suggestions for improvement, please open an issue or a pull request on this repository.
-
-
